@@ -1,8 +1,7 @@
 ﻿using Newtonsoft.Json;
-using Raven.Abstractions.Data;
+using Raven.Client.Documents;
 
-var test = new RavenConnectionStringOptions(){};
 string json = JsonConvert.SerializeObject("123", Formatting.Indented);
 
-
+var store = new DocumentStore();
 Console.WriteLine("PAR nuget test project");
