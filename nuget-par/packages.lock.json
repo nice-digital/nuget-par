@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "Newtonsoft.Json": {
+        "type": "Direct",
+        "requested": "[13.0.4, )",
+        "resolved": "13.0.4",
+        "contentHash": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A=="
+      },
+      "RavenDB.Client": {
+        "type": "Direct",
+        "requested": "[7.2.4, )",
+        "resolved": "7.2.4",
+        "contentHash": "s3+D94GKA2lU6vmXY4UwWzNEYECS0d64h5FQMN6YqQp4/rlJV8m9g9UUQfAzNYy4Po2eJBwt6Vej+333aZ2qHA==",
+        "dependencies": {
+          "Lambda2Js.Signed": "3.1.4",
+          "Microsoft.AspNetCore.JsonPatch": "10.0.8",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "Nito.AsyncEx.Coordination": "5.1.2"
+        }
+      },
+      "Lambda2Js.Signed": {
+        "type": "Transitive",
+        "resolved": "3.1.4",
+        "contentHash": "Ryzu7T7ZzjQxTGxCSInAe0ZO3gbskW09qizdnrTUbZeNOyJzbdcQ39ylj4mJEYFeOUO1DQ1RqtBhQdiaMTSC6g=="
+      },
+      "Microsoft.AspNetCore.JsonPatch": {
+        "type": "Transitive",
+        "resolved": "10.0.8",
+        "contentHash": "xGMQwR06DxQSpSUdYvUPLQkjcQUAXnFIUbNoafAcLvUXDnmKNEuddxKvrGoWDT7svt90wWet2Xve5uacO/pVtw==",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream": {
+        "type": "Transitive",
+        "resolved": "3.0.1",
+        "contentHash": "s/s20YTVY9r9TPfTrN5g8zPF1YhwxyqO6PxUkrYTGI2B+OGPe9AdajWZrLhFqXIvqIW23fnUE4+ztrUWNU1+9g=="
+      },
+      "Nito.AsyncEx.Coordination": {
+        "type": "Transitive",
+        "resolved": "5.1.2",
+        "contentHash": "QMyUfsaxov//0ZMbOHWr9hJaBFteZd66DV1ay4J5wRODDb8+K/uHC7+3VsOflo6SVw/29mu8OWZp8vMDSuzc0w==",
+        "dependencies": {
+          "Nito.AsyncEx.Tasks": "5.1.2",
+          "Nito.Collections.Deque": "1.1.1"
+        }
+      },
+      "Nito.AsyncEx.Tasks": {
+        "type": "Transitive",
+        "resolved": "5.1.2",
+        "contentHash": "jEkCfR2/M26OK/U4G7SEN063EU/F4LiVA06TtpZILMdX/quIHCg+wn31Zerl2LC+u1cyFancjTY3cNAr2/89PA==",
+        "dependencies": {
+          "Nito.Disposables": "2.2.1"
+        }
+      },
+      "Nito.Collections.Deque": {
+        "type": "Transitive",
+        "resolved": "1.1.1",
+        "contentHash": "CU0/Iuv5VDynK8I8pDLwkgF0rZhbQoZahtodfL0M3x2gFkpBRApKs8RyMyNlAi1mwExE4gsmqQXk4aFVvW9a4Q=="
+      },
+      "Nito.Disposables": {
+        "type": "Transitive",
+        "resolved": "2.2.1",
+        "contentHash": "6sZ5uynQeAE9dPWBQGKebNmxbY4xsvcc5VplB5WkYEESUS7oy4AwnFp0FhqxTSKm/PaFrFqLrYr696CYN8cugg=="
+      }
+    }
+  }
+}
