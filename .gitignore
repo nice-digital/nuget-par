@@ -157,6 +157,7 @@ csx/
 
 # Windows Store app package directory
 AppPackages/
+packages.lock.json
 
 # Others
 *.[Cc]ache
